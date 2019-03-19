@@ -31,3 +31,20 @@
     transform: rotate(360deg);
   }
 }
+
+.tiles {
+  width: 210px;
+  margin: 0 auto;
+}
+.tile {
+  border: 1px solid black;
+  vertical-align: top;
+  width: 50px;
+  padding-top: 15px;
+  height: 35px;
+  display: inline-block;
+}
+.covered-tile {
+  color: gray;
+  background-color: gray;
+}
